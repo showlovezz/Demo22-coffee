@@ -106,3 +106,25 @@ header {
   flex-direction: column;
   justify-content: center;
 }
+
+/*contact section*/
+#contact {
+  padding: 40px;
+  background-color: whitesmoke;
+}
+
+#contact .form-control {
+  border-radius: 0!important;
+  font-size: 20px;
+}
+
+#contact button {
+  background-color: #353531;
+  font-size: 24px;
+  color: #F15025;
+  margin-bottom: 20px;
+}
+
+#contact button:hover {
+  background-color: #CED0CE;
+}
