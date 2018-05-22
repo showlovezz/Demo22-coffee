@@ -12,6 +12,27 @@ body {
   font-family: "Indie Flower", cursive;
 }
 
+/*navbar*/
+.transparent {
+  background: rgba(0,0,0,0.5);
+}
+
+.navbar-toggler-icon {
+  border: 5px solid black;
+  padding: 30px;
+  background-color: #F15025;
+}
+
+.nav-link, .navbar-brand {
+  color: #F15025!important;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.navbar a:hover {
+  color: whitesmoke!important;
+}
+
 /*header*/
 header {
   height: 100vh;
