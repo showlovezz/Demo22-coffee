@@ -7,3 +7,45 @@
 /*grey #CED0CE*/
 
 /*Whitesmoke*/
+
+body {
+  font-family: "Indie Flower", cursive;
+}
+
+header {
+  height: 100vh;
+  background: url(../img/header2.jpeg) fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-center {
+  height: 100vh;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-underline {
+  width: 300px;
+  border: 3px solid #F15025;
+  margin: 0 auto 20px;
+}
+
+.banner-center a {
+  font-size: 30px;
+  width: 300px;
+  margin: 0 auto;
+  display: inline-block;
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.banner-center a:hover,
+.banner a:focus {
+  color: #F15025;
+  background-color: whitesmoke;
+}
